@@ -1,0 +1,16 @@
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.exe.config
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.exe
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.pdb
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\ThoughtWorks.Selenium.Core.dll
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\WebDriver.dll
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\bin\Debug\WebDriver.Support.dll
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.csprojResolveAssemblyReference.cache
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.exe
+c:\users\breno.torres\documents\visual studio 2015\Projects\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.pdb
+C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.exe.config
+C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.exe
+C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.pdb
+C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.exe
+C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.pdb
+C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.csprojResolveAssemblyReference.cache
