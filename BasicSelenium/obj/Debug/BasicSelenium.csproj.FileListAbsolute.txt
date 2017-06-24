@@ -14,3 +14,13 @@ C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\obj\Debug\B
 C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.exe
 C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\bin\Debug\BasicSelenium.pdb
 C:\Users\Breno\Desktop\Tcc\BasicSelenium\BasicSelenium\BasicSelenium\obj\Debug\BasicSelenium.csprojResolveAssemblyReference.cache
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\BasicSelenium.exe.config
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\BasicSelenium.exe
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\BasicSelenium.pdb
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\obj\Debug\BasicSelenium.csprojResolveAssemblyReference.cache
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\obj\Debug\BasicSelenium.exe
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\obj\Debug\BasicSelenium.pdb
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\WebDriver.dll
+C:\Users\Breno\Desktop\Tcc\gitHub\BasicSelenium\bin\Debug\WebDriver.Support.dll
