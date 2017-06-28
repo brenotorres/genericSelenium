@@ -108,7 +108,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IList<IWebElement>);
+          Console.Write(ex.Message);
+          return default(IList<IWebElement>);
         }
 
     }
@@ -129,7 +130,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
 
     }
@@ -149,7 +151,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
 
     }
@@ -170,7 +173,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
 
     }
@@ -191,7 +195,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
 
     }
@@ -213,7 +218,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
 
     }
@@ -233,7 +239,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
 
     }
@@ -254,7 +261,8 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+          Console.Write(ex.Message);
+          return default(IWebElement);
         }
     }
 
@@ -276,13 +284,14 @@ namespace BasicSelenium
         }
         catch (Exception ex)
         {
-            return default(IWebElement);
+        Console.Write(ex.Message);
+        return default(IWebElement);
         }
 
     }
 
        public static IList<IWebElement> GetElementsOfGivenAttributeFromGivenClass(IWebDriver Driver, String Class, String Attribute )
-    {
+       {
 
         if (isAlertPresent(Driver))
         {
@@ -291,16 +300,21 @@ namespace BasicSelenium
 
         if (Driver.FindElements(By.XPath("//*[contains(@class,'" + Class + "')]//*[@" + Attribute + "]")).Count > 0)
         {
-            Actions builder = new Actions(Driver);
-            builder.MoveToElement(Driver.FindElement(By.ClassName("section-write-review-container")));//By.XPath("//*[contains(@class,'" + Class + "')]//*[@" + Attribute + "]")[0]
-            builder.Perform();
-            return Driver.FindElements(By.XPath("//*[contains(@class,'" + Class + "')]//*[@" + Attribute + "]"));
+          MoveToElement(Driver, "section-write-review-container");
+          return Driver.FindElements(By.XPath("//*[contains(@class,'" + Class + "')]//*[@" + Attribute + "]"));
         }
 
-        return default(IList<IWebElement>);
+       return default(IList<IWebElement>);
+       }
+
+    private static void MoveToElement(IWebDriver Driver, string classname)
+    {
+      Actions builder = new Actions(Driver);
+      builder.MoveToElement(Driver.FindElement(By.ClassName("section-write-review-container")));
+      builder.Perform();
     }
 
-       public static String MontarComentarios(IList<IWebElement> elementos)
+    public static String MontarComentarios(IList<IWebElement> elementos)
        {
            String comentario = "";
            if ((elementos != null) && (elementos.Any()))
@@ -474,6 +488,26 @@ namespace BasicSelenium
             return false;
         }
     }
+
+    public void selectComboBoxByValue(IWebDriver Driver, string comboId, string value)
+    {
+      try
+      {
+        if (isAlertPresent(Driver))
+        {
+          Driver.SwitchTo().Alert().Dismiss();
+        }
+
+        SelectElement select = new SelectElement(Driver.FindElement(By.Id(comboId)));
+        select.SelectByValue(value);
+      }
+      catch (Exception ex)
+      {
+        Console.Write(ex.Message);
+      }
+    }
+
+
 
 
 
